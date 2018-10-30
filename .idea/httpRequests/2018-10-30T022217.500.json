@@ -1,0 +1,4 @@
+{
+  "timestamp": "2018-10-30T21:22:17.182+0000", "status": 500, "error": "Internal Server Error",
+  "message": "Index: 0, Size: 0", "path": "/hotels/checkin"
+}

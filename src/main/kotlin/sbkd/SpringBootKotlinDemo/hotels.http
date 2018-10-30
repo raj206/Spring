@@ -1,0 +1,19 @@
+### GET request to retrieve all the hotels
+GET http://localhost:8080/hotels/all
+Content-Type: application/json
+
+### GET request to retrieve hotel by name.
+
+GET http://localhost:8080/hotels/Ibis
+Content-Type: application/json
+
+### POST request to add a hotel to the db.
+POST http://localhost:8080/hotels/checkin
+Content-Type: application/json
+
+{
+  "hotelName": "Ibis",
+  "nbGuests": 4
+}
+
+### 

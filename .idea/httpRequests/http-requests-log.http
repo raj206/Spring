@@ -1,0 +1,50 @@
+GET http://localhost:8080/hotels/Ibis
+Content-Type: application/json
+
+<> 2018-10-30T022316.200.json
+
+###
+
+POST http://localhost:8080/hotels/checkin
+Content-Type: application/json
+
+{
+  "hotelName": "Ibis",
+  "nbGuests": 4
+}
+
+###
+
+POST http://localhost:8080/hotels/checkin
+Content-Type: application/json
+
+{
+  "hotelName": "Wynn",
+  "nbGuests": 4
+}
+
+<> 2018-10-30T022217.500.json
+
+###
+
+GET http://localhost:8080/hotels/Ibis
+Content-Type: application/json
+
+<> 2018-10-30T021905.200.json
+
+###
+
+GET http://localhost:8080/hotels/1
+Content-Type: application/json
+
+<> 2018-10-30T021847.200.json
+
+###
+
+GET http://localhost:8080/hotels/all
+Content-Type: application/json
+
+<> 2018-10-30T021748.200.json
+
+###
+

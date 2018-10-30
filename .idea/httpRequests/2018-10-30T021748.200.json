@@ -1,0 +1,5 @@
+[
+  {"name": "Ibis", "classification": 3, "nbRooms": 30, "id": 1, "nbFreeRooms": 30},
+  {"name": "Intercontinental", "classification": 5, "nbRooms": 90, "id": 2, "nbFreeRooms": 90},
+  {"name": "Golden Tulip", "classification": 4, "nbRooms": 40, "id": 3, "nbFreeRooms": 40}
+]
